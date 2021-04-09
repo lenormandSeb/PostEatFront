@@ -1,6 +1,6 @@
 <template>
     <div>
-        Page d'accueil
+        Page d'acceuil
     </div>
 </template>
 

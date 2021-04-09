@@ -7,6 +7,7 @@ import HomePage from '../components/HomePage'
 import ProfilRoute from '../components/Profil/ProfilRouter'
 import LoginRoute from '../components/Login/LogRouter'
 import MessageRoute from '../components/Message/MessageRouter'
+import GmapsRoute from '../components/Gmaps/GmapsRouter'
 
 const baseRoutes = [
     {
@@ -20,18 +21,13 @@ const baseRoutes = [
         component: HomePage
     },
     {
-        path: '/map',
-        name : '',
-        component: HomePage
-    },
-    {
         path: '/panier',
         name : '',
         component: HomePage
     }
 ]
 
-const routes = baseRoutes.concat(ProfilRoute, LoginRoute, MessageRoute)
+const routes = baseRoutes.concat(ProfilRoute, LoginRoute, MessageRoute, GmapsRoute)
 
 export default new Router({
     routes

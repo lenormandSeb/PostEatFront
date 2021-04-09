@@ -2,7 +2,7 @@
     <div class="navbar">
         <div class="navbar-menu" style="order:0; left:10.4%; right:81.6%; bottom:22.22%"><router-link to="/"><img src="../assets/icones/home.svg"/></router-link></div>
         <div class="navbar-menu" style="order:1 left:34.13%; right:57.87%; bottom:22.22%"><router-link to="/catalogue"><img src="../assets/icones/list.svg"/></router-link></div>
-        <div class="navbar-menu" style="order:2 left:57.87%; right:34.13%; bottom:22.22%"><router-link to="/map"><img src="../assets/icones/pin.svg"/></router-link></div>
+        <div class="navbar-menu" style="order:2 left:57.87%; right:34.13%; bottom:22.22%"><router-link to="/maps"><img src="../assets/icones/pin.svg"/></router-link></div>
         <div class="navbar-menu" style="order:3 left:81.6%; right:10.4%; bottom:22.22%"><router-link to="/kart"><img src="../assets/icones/shopping-cart.svg"/></router-link></div>
     </div>
 </template>
