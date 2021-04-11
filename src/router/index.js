@@ -13,7 +13,15 @@ import PanierRoute from '../components/Panier/PanierRouter'
 
 const baseRoutes = []
 
-const routes = baseRoutes.concat(HomeRoute, ProfilRoute, LoginRoute, MessageRoute, GmapsRoute, CatalogueRoute, PanierRoute)
+const routes = baseRoutes.concat(
+    HomeRoute, 
+    ProfilRoute, 
+    LoginRoute, 
+    MessageRoute, 
+    GmapsRoute, 
+    CatalogueRoute, 
+    PanierRoute
+    )
 
 export default new Router({
     routes
