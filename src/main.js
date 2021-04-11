@@ -13,7 +13,7 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueGoogleMap, {
   load: {
-    key: 'AIzaSyBQy1A_IafSWsVkuVV4DNbaVtXY_5Fc1DA',
+    key: '',
     libraries: 'places',
   },
   installComponents: true
