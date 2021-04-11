@@ -3,31 +3,17 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-import HomePage from '../components/HomePage'
+import HomeRoute from '../components/Home/HomeRouter'
 import ProfilRoute from '../components/Profil/ProfilRouter'
 import LoginRoute from '../components/Login/LogRouter'
 import MessageRoute from '../components/Message/MessageRouter'
 import GmapsRoute from '../components/Gmaps/GmapsRouter'
+import CatalogueRoute from '../components/Catalogue/CatalogueRouter'
+import PanierRoute from '../components/Panier/PanierRouter'
 
-const baseRoutes = [
-    {
-        path: '/',
-        name : 'homepage',
-        component: HomePage
-    },
-    {
-        path: '/catalogue',
-        name : '',
-        component: HomePage
-    },
-    {
-        path: '/panier',
-        name : '',
-        component: HomePage
-    }
-]
+const baseRoutes = []
 
-const routes = baseRoutes.concat(ProfilRoute, LoginRoute, MessageRoute, GmapsRoute)
+const routes = baseRoutes.concat(HomeRoute, ProfilRoute, LoginRoute, MessageRoute, GmapsRoute, CatalogueRoute, PanierRoute)
 
 export default new Router({
     routes
