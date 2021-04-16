@@ -1,5 +1,6 @@
 <template>
-    <div class="message" v-on:click="pageUrl()">
+    <div class="message">
+    <router-link  :to="{'name' : 'messageshow', params :{'id' : id}}">
         <div class="message-body">
             <div class="message-avatar"></div>
             <div class="message-display">
@@ -10,6 +11,7 @@
                 </div>
             </div>
         </div>
+    </router-link>
     </div>
 </template>
 
@@ -20,14 +22,7 @@ export default {
     data() {
         return {
         }
-    },
-    methods : {
-        pageUrl: function(){
-            var path = '/message/' + this.id;
-            this.$router.replace({path: path})
-        }
     }
-
 }
 </script>
 

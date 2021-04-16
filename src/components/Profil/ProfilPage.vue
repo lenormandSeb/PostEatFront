@@ -2,6 +2,7 @@
     <div>
         <p><b-avatar class="mr-3"></b-avatar>Sebastien Lenormand{{ user.lastName }} {{ user.name }} <br> Voir mon profil<b-icon icon="chevron-right"></b-icon></p>
         <hr>
+        <a><router-link to="/recette-creation">Creation d'une recette</router-link></a>
         <div style="overflow-y:scroll;height:601px">
             <div class="row" style="height:100px">
                 <div class="btn-profil">
